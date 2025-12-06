@@ -7,7 +7,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/OIP.webp',
-  organizationName: 'https://github.com/TehreemFatimaTF', // Usually your GitHub org/user name.
+  organizationName: 'TehreemFatimaTF', // Usually your GitHub org/user name.
   projectName: 'physical-ai-robotics-textbook', // Usually your repo name.
 
   presets: [
