@@ -1,0 +1,27 @@
+{
+  "unversionedId": "appendix/references",
+  "id": "appendix/references",
+  "title": "References",
+  "description": "Suggested reading and official docs",
+  "source": "@site/docs/appendix/references.md",
+  "sourceDirName": "appendix",
+  "slug": "/appendix/references",
+  "permalink": "/physical-ai-robotics-textbook/docs/appendix/references",
+  "draft": false,
+  "editUrl": "https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/docs/appendix/references.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "References",
+    "description": "Suggested reading and official docs"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/physical-ai-robotics-textbook/docs/appendix/glossary"
+  },
+  "next": {
+    "title": "resources",
+    "permalink": "/physical-ai-robotics-textbook/docs/appendix/resources"
+  }
+}

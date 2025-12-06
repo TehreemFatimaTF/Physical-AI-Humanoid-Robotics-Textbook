@@ -1,0 +1,24 @@
+{
+  "unversionedId": "appendix/resources",
+  "id": "appendix/resources",
+  "title": "resources",
+  "description": "",
+  "source": "@site/docs/appendix/resources.md",
+  "sourceDirName": "appendix",
+  "slug": "/appendix/resources",
+  "permalink": "/physical-ai-robotics-textbook/docs/appendix/resources",
+  "draft": false,
+  "editUrl": "https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/docs/appendix/resources.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "References",
+    "permalink": "/physical-ai-robotics-textbook/docs/appendix/references"
+  },
+  "next": {
+    "title": "Physical AI & Humanoid Robotics Textbook",
+    "permalink": "/physical-ai-robotics-textbook/docs/intro"
+  }
+}

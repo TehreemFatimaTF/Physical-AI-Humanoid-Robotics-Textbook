@@ -1,0 +1,42 @@
+/**
+ * CSS file for the modules page (src/pages/modules.js).
+ */
+
+.modulesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .modulesGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .modulesGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.moduleCard {
+  background-color: var(--ifm-background-color);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--ifm-shadow-md);
+  transition: transform 0.2s ease-in-out;
+}
+
+.moduleCard:hover {
+  transform: translateY(-5px);
+}
+
+.moduleCard h3 {
+  margin-top: 0;
+}
+
+.moduleCard a {
+  text-decoration: none;
+  color: inherit;
+}

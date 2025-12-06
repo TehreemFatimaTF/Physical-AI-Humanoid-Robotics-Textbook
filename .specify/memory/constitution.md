@@ -1,55 +1,82 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: 1.0.0 -> 1.1.0
+Modified principles:
+  - I. Modularity -> I. Spec-Driven Development
+  - II. User-Centric Design -> II. Technical Accuracy
+  - III. Performance -> III. Clarity & Readability
+  - IV. Security -> IV. Content Integrity
+  - V. Maintainability -> V. UI/UX Excellence
+  - None -> VI. Maintainability & Deployability
+Added sections:
+  - Key Standards
+  - UI/UX Requirements
+  - Constraints
+  - Success Criteria
+Removed sections: None
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ⚠ pending (Constitution Check section might need alignment)
+  - .specify/templates/spec-template.md: ⚠ pending
+  - .specify/templates/tasks-template.md: ⚠ pending
+Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics Textbook Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Spec-Driven Development
+All content and features must strictly adhere to validated specifications.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Technical Accuracy
+All technical information, especially regarding ROS2, Gazebo, and Isaac, must be verified against official and authoritative robotics sources.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Clarity & Readability
+Explanations must be student-friendly, clear, concise, and consistently formatted across the entire book to ensure strong readability.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Content Integrity
+Maintain zero hallucination; all content must be factual and verifiable.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. UI/UX Excellence
+Ensure a clean, modern, and responsive user interface with a high-contrast yellow and black color scheme, rounded UI elements, and clean typography.
 
-### [PRINCIPLE_6_NAME]
+### VI. Maintainability & Deployability
+The project must be Docusaurus-compatible, pass `npm run build`, deploy cleanly to GitHub Pages, and have correct, runnable code examples that do not break the Docusaurus build.
 
+## Key Standards
 
-[PRINCIPLE__DESCRIPTION]
+- Docusaurus-compatible MDX files.
+- Correct, runnable code examples.
+- Each chapter must include: Practical examples, steps, diagrams (pseudo ok), summary, and a glossary.
+- Only official/authoritative robotics sources are to be used.
+- Uniform tone and structure throughout the book.
+- Theme standards: Yellow (#FACC15 or similar) and Black primary color palette, rounded UI elements, clean typography, good spacing, and consistent layout.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## UI/UX Requirements
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- **Homepage**: Must include a strong title (e.g., "Physical AI & Humanoid Robotics — A Complete Guide"), a short description/subtext, a call-to-action button (“Start Learning”), and a modern layout with a black background and yellow accents.
+- **Modules Page**: Must feature a card-based UI where each card represents a “Module / Chapter Group,” and clicking a module opens its corresponding chapter page.
+- Minimalistic, elegant Docusaurus theme customization.
+- Responsive layout for mobile and desktop.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Constraints
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- 10–14 chapters, each between 1,000–2,000 words.
+- All images must be stored in `/static/img/`.
+- The site must pass `npm run build`.
+- Must deploy cleanly to GitHub Pages.
+- The theme must not break the Docusaurus build.
+
+## Success Criteria
+
+- The book compiles and deploys with no errors.
+- All chapters exactly follow validated specifications.
+- Content is accurate, easy to read, and well-formatted.
+- The UI/UX meets the yellow-black theme guidelines.
+- Homepage and modules-page design is clean and functional.
+- No fake tools or commands are present.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other practices. Amendments require documentation, approval, and a migration plan. All PRs/reviews must verify compliance. Use `CLAUDE.md` for runtime development guidance.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.1.0 | **Ratified**: 2025-12-05 | **Last Amended**: 2025-12-05

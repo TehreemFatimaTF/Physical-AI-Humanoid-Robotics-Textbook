@@ -1,0 +1,27 @@
+{
+  "unversionedId": "simulation/gazebo-unity",
+  "id": "simulation/gazebo-unity",
+  "title": "Gazebo & Unity Integration",
+  "description": "Using Gazebo for physics and Unity for high-quality rendering (static guidance)",
+  "source": "@site/docs/03-simulation/gazebo-unity.md",
+  "sourceDirName": "03-simulation",
+  "slug": "/simulation/gazebo-unity",
+  "permalink": "/physical-ai-robotics-textbook/docs/simulation/gazebo-unity",
+  "draft": false,
+  "editUrl": "https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/docs/03-simulation/gazebo-unity.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Gazebo & Unity Integration",
+    "description": "Using Gazebo for physics and Unity for high-quality rendering (static guidance)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Digital Twins",
+    "permalink": "/physical-ai-robotics-textbook/docs/simulation/digital-twins"
+  },
+  "next": {
+    "title": "Module 2: Simulation & Digital Twins",
+    "permalink": "/physical-ai-robotics-textbook/docs/simulation/module-2-simulation"
+  }
+}

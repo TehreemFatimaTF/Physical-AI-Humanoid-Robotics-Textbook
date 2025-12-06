@@ -1,0 +1,27 @@
+{
+  "unversionedId": "vla-systems/vla-vision",
+  "id": "vla-systems/vla-vision",
+  "title": "VLA Vision Systems",
+  "description": "Perception models, segmentation, ViT, scene understanding",
+  "source": "@site/docs/05-vla-systems/vla-vision.md",
+  "sourceDirName": "05-vla-systems",
+  "slug": "/vla-systems/vla-vision",
+  "permalink": "/physical-ai-robotics-textbook/docs/vla-systems/vla-vision",
+  "draft": false,
+  "editUrl": "https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/docs/05-vla-systems/vla-vision.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "VLA Vision Systems",
+    "description": "Perception models, segmentation, ViT, scene understanding"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VLA Language Systems",
+    "permalink": "/physical-ai-robotics-textbook/docs/vla-systems/vla-language"
+  },
+  "next": {
+    "title": "Module 5: Advanced AI & Control",
+    "permalink": "/physical-ai-robotics-textbook/docs/advanced-ai-control/module-5-advanced-ai"
+  }
+}

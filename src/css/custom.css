@@ -1,0 +1,45 @@
+/**
+ * Any CSS inside this file will be applied to all pages of Docusaurus.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #FFD700; /* Gold/Yellow */
+  --ifm-color-primary-dark: #E6C200;
+  --ifm-color-primary-darker: #CCA300;
+  --ifm-color-primary-darkest: #B38E00;
+  --ifm-color-primary-light: #FFE033;
+  --ifm-color-primary-lighter: #FFE666;
+  --ifm-color-primary-lightest: #FFEB99;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For dark mode */
+html[data-theme='dark'] {
+  --ifm-color-primary: #FFD700; /* Gold/Yellow */
+  --ifm-color-primary-dark: #E6C200;
+  --ifm-color-primary-darker: #CCA300;
+  --ifm-color-primary-darkest: #B38E00;
+  --ifm-color-primary-light: #FFE033;
+  --ifm-color-primary-lighter: #FFE666;
+  --ifm-color-primary-lightest: #FFEB99;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles for rounded elements */
+.navbar__item {
+  border-radius: 8px;
+}
+
+.menu__list-item {
+  border-radius: 8px;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.button {
+  border-radius: 8px;
+}

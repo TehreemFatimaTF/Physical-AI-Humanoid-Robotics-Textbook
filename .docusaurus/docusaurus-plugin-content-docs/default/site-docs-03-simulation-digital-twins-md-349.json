@@ -1,0 +1,27 @@
+{
+  "unversionedId": "simulation/digital-twins",
+  "id": "simulation/digital-twins",
+  "title": "Digital Twins",
+  "description": "Designing, maintaining and using digital twins for sim-to-real",
+  "source": "@site/docs/03-simulation/digital-twins.md",
+  "sourceDirName": "03-simulation",
+  "slug": "/simulation/digital-twins",
+  "permalink": "/physical-ai-robotics-textbook/docs/simulation/digital-twins",
+  "draft": false,
+  "editUrl": "https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/docs/03-simulation/digital-twins.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Digital Twins",
+    "description": "Designing, maintaining and using digital twins for sim-to-real"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Core Concepts",
+    "permalink": "/physical-ai-robotics-textbook/docs/ros2-foundations/ros2-hands-on"
+  },
+  "next": {
+    "title": "Gazebo & Unity Integration",
+    "permalink": "/physical-ai-robotics-textbook/docs/simulation/gazebo-unity"
+  }
+}

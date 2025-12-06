@@ -1,0 +1,35 @@
+{
+  "unversionedId": "humanoid-design/module-6-humanoid-design",
+  "id": "humanoid-design/module-6-humanoid-design",
+  "title": "Module 6: Designing Humanoid Robots",
+  "description": "Kinematics, dynamics, URDF/Xacro, bipedal locomotion, hands and manipulation",
+  "source": "@site/docs/07-humanoid-design/module-6-humanoid-design.md",
+  "sourceDirName": "07-humanoid-design",
+  "slug": "/humanoid-design/module-6-humanoid-design",
+  "permalink": "/physical-ai-robotics-textbook/docs/humanoid-design/module-6-humanoid-design",
+  "draft": false,
+  "editUrl": "https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/docs/07-humanoid-design/module-6-humanoid-design.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Module 6: Designing Humanoid Robots",
+    "description": "Kinematics, dynamics, URDF/Xacro, bipedal locomotion, hands and manipulation",
+    "module": 6,
+    "duration": "8-12 hours",
+    "prerequisites": "Mechanics basics, ROS 2",
+    "objectives": [
+      "Model humanoid kinematics in URDF/Xacro (conceptual)",
+      "Understand dynamic stability, ZMP, and gait cycles",
+      "Design manipulators and end-effector control"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 5: Advanced AI & Control",
+    "permalink": "/physical-ai-robotics-textbook/docs/advanced-ai-control/module-5-advanced-ai"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/physical-ai-robotics-textbook/docs/appendix/glossary"
+  }
+}

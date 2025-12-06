@@ -1,0 +1,35 @@
+{
+  "unversionedId": "hardware-basics/module-3-hardware",
+  "id": "hardware-basics/module-3-hardware",
+  "title": "Module 3: Hardware Foundations & Edge AI",
+  "description": "Jetson kits, RealSense, sensor integration, and robot options",
+  "source": "@site/docs/04-hardware-basics/module-3-hardware.md",
+  "sourceDirName": "04-hardware-basics",
+  "slug": "/hardware-basics/module-3-hardware",
+  "permalink": "/physical-ai-robotics-textbook/docs/hardware-basics/module-3-hardware",
+  "draft": false,
+  "editUrl": "https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/docs/04-hardware-basics/module-3-hardware.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Module 3: Hardware Foundations & Edge AI",
+    "description": "Jetson kits, RealSense, sensor integration, and robot options",
+    "module": 3,
+    "duration": "6-8 hours",
+    "prerequisites": "Basic Linux, ROS 2",
+    "objectives": [
+      "Understand Edge AI kits and sensors",
+      "Understand tradeoffs of hardware selection",
+      "Plan deployment of ROS 2 nodes to edge devices"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 2: Simulation & Digital Twins",
+    "permalink": "/physical-ai-robotics-textbook/docs/simulation/module-2-simulation"
+  },
+  "next": {
+    "title": "Module 4: Vision-Language-Action (VLA) Systems - Foundations",
+    "permalink": "/physical-ai-robotics-textbook/docs/vla-systems/module-4-vla-foundations"
+  }
+}

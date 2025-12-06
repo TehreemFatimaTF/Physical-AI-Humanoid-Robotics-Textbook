@@ -1,0 +1,27 @@
+{
+  "unversionedId": "vla-systems/vla-language",
+  "id": "vla-systems/vla-language",
+  "title": "VLA Language Systems",
+  "description": "LLMs, instruction following, reasoning (static guidance)",
+  "source": "@site/docs/05-vla-systems/vla-language.md",
+  "sourceDirName": "05-vla-systems",
+  "slug": "/vla-systems/vla-language",
+  "permalink": "/physical-ai-robotics-textbook/docs/vla-systems/vla-language",
+  "draft": false,
+  "editUrl": "https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/docs/05-vla-systems/vla-language.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "VLA Language Systems",
+    "description": "LLMs, instruction following, reasoning (static guidance)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hands-On: Basic VLA Agent (Design Only)",
+    "permalink": "/physical-ai-robotics-textbook/docs/vla-systems/vla-hands-on-basic"
+  },
+  "next": {
+    "title": "VLA Vision Systems",
+    "permalink": "/physical-ai-robotics-textbook/docs/vla-systems/vla-vision"
+  }
+}

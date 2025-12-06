@@ -1,0 +1,296 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "introduction",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Physical AI & Humanoid Robotics Textbook",
+            "href": "/physical-ai-robotics-textbook/docs/introduction/intro",
+            "docId": "introduction/intro"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "ros2-foundations",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 1: The Robotic Nervous System - ROS 2",
+            "href": "/physical-ai-robotics-textbook/docs/ros2-foundations/module-1-ros2",
+            "docId": "ros2-foundations/module-1-ros2"
+          },
+          {
+            "type": "link",
+            "label": "ROS 2 Core Concepts",
+            "href": "/physical-ai-robotics-textbook/docs/ros2-foundations/ros2-hands-on",
+            "docId": "ros2-foundations/ros2-hands-on"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "simulation",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Digital Twins",
+            "href": "/physical-ai-robotics-textbook/docs/simulation/digital-twins",
+            "docId": "simulation/digital-twins"
+          },
+          {
+            "type": "link",
+            "label": "Gazebo & Unity Integration",
+            "href": "/physical-ai-robotics-textbook/docs/simulation/gazebo-unity",
+            "docId": "simulation/gazebo-unity"
+          },
+          {
+            "type": "link",
+            "label": "Module 2: Simulation & Digital Twins",
+            "href": "/physical-ai-robotics-textbook/docs/simulation/module-2-simulation",
+            "docId": "simulation/module-2-simulation"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "hardware-basics",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 3: Hardware Foundations & Edge AI",
+            "href": "/physical-ai-robotics-textbook/docs/hardware-basics/module-3-hardware",
+            "docId": "hardware-basics/module-3-hardware"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "vla-systems",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 4: Vision-Language-Action (VLA) Systems - Foundations",
+            "href": "/physical-ai-robotics-textbook/docs/vla-systems/module-4-vla-foundations",
+            "docId": "vla-systems/module-4-vla-foundations"
+          },
+          {
+            "type": "link",
+            "label": "VLA Action Systems",
+            "href": "/physical-ai-robotics-textbook/docs/vla-systems/vla-action",
+            "docId": "vla-systems/vla-action"
+          },
+          {
+            "type": "link",
+            "label": "Hands-On: Basic VLA Agent (Design Only)",
+            "href": "/physical-ai-robotics-textbook/docs/vla-systems/vla-hands-on-basic",
+            "docId": "vla-systems/vla-hands-on-basic"
+          },
+          {
+            "type": "link",
+            "label": "VLA Language Systems",
+            "href": "/physical-ai-robotics-textbook/docs/vla-systems/vla-language",
+            "docId": "vla-systems/vla-language"
+          },
+          {
+            "type": "link",
+            "label": "VLA Vision Systems",
+            "href": "/physical-ai-robotics-textbook/docs/vla-systems/vla-vision",
+            "docId": "vla-systems/vla-vision"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "advanced-ai-control",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 5: Advanced AI & Control",
+            "href": "/physical-ai-robotics-textbook/docs/advanced-ai-control/module-5-advanced-ai",
+            "docId": "advanced-ai-control/module-5-advanced-ai"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "humanoid-design",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Module 6: Designing Humanoid Robots",
+            "href": "/physical-ai-robotics-textbook/docs/humanoid-design/module-6-humanoid-design",
+            "docId": "humanoid-design/module-6-humanoid-design"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "appendix",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Glossary",
+            "href": "/physical-ai-robotics-textbook/docs/appendix/glossary",
+            "docId": "appendix/glossary"
+          },
+          {
+            "type": "link",
+            "label": "References",
+            "href": "/physical-ai-robotics-textbook/docs/appendix/references",
+            "docId": "appendix/references"
+          },
+          {
+            "type": "link",
+            "label": "resources",
+            "href": "/physical-ai-robotics-textbook/docs/appendix/resources",
+            "docId": "appendix/resources"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Physical AI & Humanoid Robotics Textbook",
+        "href": "/physical-ai-robotics-textbook/docs/intro",
+        "docId": "intro"
+      }
+    ]
+  },
+  "docs": {
+    "advanced-ai-control/module-5-advanced-ai": {
+      "id": "advanced-ai-control/module-5-advanced-ai",
+      "title": "Module 5: Advanced AI & Control",
+      "description": "RL, sim-to-real, model-based control, and subagent architectures",
+      "sidebar": "tutorialSidebar"
+    },
+    "appendix/glossary": {
+      "id": "appendix/glossary",
+      "title": "Glossary",
+      "description": "Key terms used throughout the textbook",
+      "sidebar": "tutorialSidebar"
+    },
+    "appendix/references": {
+      "id": "appendix/references",
+      "title": "References",
+      "description": "Suggested reading and official docs",
+      "sidebar": "tutorialSidebar"
+    },
+    "appendix/resources": {
+      "id": "appendix/resources",
+      "title": "resources",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "hardware-basics/module-3-hardware": {
+      "id": "hardware-basics/module-3-hardware",
+      "title": "Module 3: Hardware Foundations & Edge AI",
+      "description": "Jetson kits, RealSense, sensor integration, and robot options",
+      "sidebar": "tutorialSidebar"
+    },
+    "humanoid-design/module-6-humanoid-design": {
+      "id": "humanoid-design/module-6-humanoid-design",
+      "title": "Module 6: Designing Humanoid Robots",
+      "description": "Kinematics, dynamics, URDF/Xacro, bipedal locomotion, hands and manipulation",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Physical AI & Humanoid Robotics Textbook",
+      "description": "A Docusaurus-powered curriculum for Physical AI, ROS 2, simulation, VLA systems and humanoid robotics",
+      "sidebar": "tutorialSidebar"
+    },
+    "introduction/intro": {
+      "id": "introduction/intro",
+      "title": "Physical AI & Humanoid Robotics Textbook",
+      "description": "A Docusaurus-powered curriculum for Physical AI, ROS 2, simulation, VLA systems and humanoid robotics",
+      "sidebar": "tutorialSidebar"
+    },
+    "ros2-foundations/module-1-ros2": {
+      "id": "ros2-foundations/module-1-ros2",
+      "title": "Module 1: The Robotic Nervous System - ROS 2",
+      "description": "Mastering the middleware that makes modern humanoid robots think and move",
+      "sidebar": "tutorialSidebar"
+    },
+    "ros2-foundations/ros2-hands-on": {
+      "id": "ros2-foundations/ros2-hands-on",
+      "title": "ROS 2 Core Concepts",
+      "description": "Nodes, Topics, Services, Actions, DDS — Deep and Practical Understanding",
+      "sidebar": "tutorialSidebar"
+    },
+    "simulation/digital-twins": {
+      "id": "simulation/digital-twins",
+      "title": "Digital Twins",
+      "description": "Designing, maintaining and using digital twins for sim-to-real",
+      "sidebar": "tutorialSidebar"
+    },
+    "simulation/gazebo-unity": {
+      "id": "simulation/gazebo-unity",
+      "title": "Gazebo & Unity Integration",
+      "description": "Using Gazebo for physics and Unity for high-quality rendering (static guidance)",
+      "sidebar": "tutorialSidebar"
+    },
+    "simulation/module-2-simulation": {
+      "id": "simulation/module-2-simulation",
+      "title": "Module 2: Simulation & Digital Twins",
+      "description": "Physics simulation, Gazebo, Unity, and building digital twins",
+      "sidebar": "tutorialSidebar"
+    },
+    "vla-systems/module-4-vla-foundations": {
+      "id": "vla-systems/module-4-vla-foundations",
+      "title": "Module 4: Vision-Language-Action (VLA) Systems - Foundations",
+      "description": "Empowering humanoids to perceive, understand, and interact with the world through multimodal AI",
+      "sidebar": "tutorialSidebar"
+    },
+    "vla-systems/vla-action": {
+      "id": "vla-systems/vla-action",
+      "title": "VLA Action Systems",
+      "description": "Motion planning, IK, RL, task planning (design-level guidance)",
+      "sidebar": "tutorialSidebar"
+    },
+    "vla-systems/vla-hands-on-basic": {
+      "id": "vla-systems/vla-hands-on-basic",
+      "title": "Hands-On: Basic VLA Agent (Design Only)",
+      "description": "A static, copy-paste friendly lab plan for a basic VLA interaction using simulated perception and text commands",
+      "sidebar": "tutorialSidebar"
+    },
+    "vla-systems/vla-language": {
+      "id": "vla-systems/vla-language",
+      "title": "VLA Language Systems",
+      "description": "LLMs, instruction following, reasoning (static guidance)",
+      "sidebar": "tutorialSidebar"
+    },
+    "vla-systems/vla-vision": {
+      "id": "vla-systems/vla-vision",
+      "title": "VLA Vision Systems",
+      "description": "Perception models, segmentation, ViT, scene understanding",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

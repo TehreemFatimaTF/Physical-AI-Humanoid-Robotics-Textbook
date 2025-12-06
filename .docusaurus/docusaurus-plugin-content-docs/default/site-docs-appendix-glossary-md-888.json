@@ -1,0 +1,27 @@
+{
+  "unversionedId": "appendix/glossary",
+  "id": "appendix/glossary",
+  "title": "Glossary",
+  "description": "Key terms used throughout the textbook",
+  "source": "@site/docs/appendix/glossary.md",
+  "sourceDirName": "appendix",
+  "slug": "/appendix/glossary",
+  "permalink": "/physical-ai-robotics-textbook/docs/appendix/glossary",
+  "draft": false,
+  "editUrl": "https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/docs/appendix/glossary.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Glossary",
+    "description": "Key terms used throughout the textbook"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 6: Designing Humanoid Robots",
+    "permalink": "/physical-ai-robotics-textbook/docs/humanoid-design/module-6-humanoid-design"
+  },
+  "next": {
+    "title": "References",
+    "permalink": "/physical-ai-robotics-textbook/docs/appendix/references"
+  }
+}

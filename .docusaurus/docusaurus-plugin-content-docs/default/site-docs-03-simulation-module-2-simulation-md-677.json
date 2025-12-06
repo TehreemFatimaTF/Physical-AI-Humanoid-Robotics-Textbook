@@ -1,0 +1,35 @@
+{
+  "unversionedId": "simulation/module-2-simulation",
+  "id": "simulation/module-2-simulation",
+  "title": "Module 2: Simulation & Digital Twins",
+  "description": "Physics simulation, Gazebo, Unity, and building digital twins",
+  "source": "@site/docs/03-simulation/module-2-simulation.md",
+  "sourceDirName": "03-simulation",
+  "slug": "/simulation/module-2-simulation",
+  "permalink": "/physical-ai-robotics-textbook/docs/simulation/module-2-simulation",
+  "draft": false,
+  "editUrl": "https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/docs/03-simulation/module-2-simulation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Module 2: Simulation & Digital Twins",
+    "description": "Physics simulation, Gazebo, Unity, and building digital twins",
+    "module": 2,
+    "duration": "8-12 hours",
+    "prerequisites": "ROS 2 basics",
+    "objectives": [
+      "Understand Gazebo and Unity for robot simulation",
+      "Build digital twins and simulate sensors",
+      "Prepare environments for sim-to-real transfer"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gazebo & Unity Integration",
+    "permalink": "/physical-ai-robotics-textbook/docs/simulation/gazebo-unity"
+  },
+  "next": {
+    "title": "Module 3: Hardware Foundations & Edge AI",
+    "permalink": "/physical-ai-robotics-textbook/docs/hardware-basics/module-3-hardware"
+  }
+}
