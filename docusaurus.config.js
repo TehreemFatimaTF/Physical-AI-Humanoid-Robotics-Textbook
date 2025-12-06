@@ -2,12 +2,12 @@
 const config = {
   title: 'Physical AI & Humanoid Robotics Textbook',
   tagline: 'A complete and practical learning system where you master the future: humanoid robotics, ROS 2, large action models, simulation, VLA systems, hardware, and advanced AI for next-generation intelligent machines.',
-  url: 'https://your-github-username.github.io',
+  url: 'https://github.com/TehreemFatimaTF',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/OIP.webp',
-  organizationName: 'your-github-username', // Usually your GitHub org/user name.
+  organizationName: 'https://github.com/TehreemFatimaTF', // Usually your GitHub org/user name.
   projectName: 'physical-ai-robotics-textbook', // Usually your repo name.
 
   presets: [
@@ -45,7 +45,7 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/your-github-username/physical-ai-robotics-textbook',
+            href: 'https://github.com/TehreemFatimaTF',
             label: 'GitHub',
             position: 'right',
           },
@@ -86,7 +86,7 @@ const config = {
             
               {
                 label: 'GitHub',
-                href: 'https://github.com/your-github-username/physical-ai-robotics-textbook',
+                href: 'https://github.com/TehreemFatimaTF',
               },
             ],
           },
