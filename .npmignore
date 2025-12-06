@@ -1,9 +1,0 @@
-node_modules/
-dist/
-build/
-coverage/
-.git/
-.docusaurus/
-history/
-specs/
-.specify/
