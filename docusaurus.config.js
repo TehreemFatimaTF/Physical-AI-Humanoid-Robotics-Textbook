@@ -2,7 +2,7 @@
 const config = {
   title: 'Physical AI & Humanoid Robotics Textbook',
   tagline: 'A complete and practical learning system where you master the future: humanoid robotics, ROS 2, large action models, simulation, VLA systems, hardware, and advanced AI for next-generation intelligent machines.',
-  url: 'https://github.com/TehreemFatimaTF',
+  url: 'https://physical-ai-humanoid-robotics-textb-mu.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
