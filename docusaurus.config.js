@@ -19,11 +19,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/your-github-username/physical-ai-robotics-textbook/edit/main/blog/',
-        },
+       
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -87,10 +83,7 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+            
               {
                 label: 'GitHub',
                 href: 'https://github.com/your-github-username/physical-ai-robotics-textbook',
