@@ -81,53 +81,20 @@ const EnhancedAboutSection = () => {
       setTimeout(createButterfly, i * 500);
     }
     
-    const handleScroll = () => {
-      if (!sectionRef.current) return;
+  
       
       const rect = sectionRef.current.getBoundingClientRect();
       const isInView = rect.top < window.innerHeight && rect.bottom > 0;
       
-      if (isInView) {
-        const scrollPercent = 1 - (rect.top / window.innerHeight);
-        const rotation = scrollPercent * 5;
-        const scale = 0.95 + (scrollPercent * 0.1);
+   
         
         sectionRef.current.style.transform = `perspective(1000px) rotateX(${rotation}deg) scale(${scale})`;
       }
     };
-    
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
-  return (
-    <section 
-      className="enhanced-about-section"
-      ref={sectionRef}
-    >
-      <div className="butterflies-container" ref={butterflyRef}></div>
-      <FloatingElements />
-      
-      <h2 className="about-title">
-        What This Textbook Covers
-      </h2>
-      
-      <div className="about-content">
-        This is a <strong>complete AI-native engineering curriculum</strong> designed for 
-        <span className="highlight-box">physical AI</span>, 
-        <span className="highlight-box">humanoid robots</span>,
-        <span className="highlight-box">embodied intelligence</span>, 
-        <span className="highlight-box">ROS 2 programming</span>,
-        <span className="highlight-box">digital twin simulations</span>, and 
-        <span className="highlight-box">Vision-Language-Action (VLA)</span> systems. 
-        Each module builds your <em>robotics superpowers</em> step by step.
-      </div>
-    </section>
-  );
-};
-
+  
 // Feature Cards Component
 const FeatureCards = () => {
   const features = [
