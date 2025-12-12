@@ -161,57 +161,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-   <header className="hero-section" style={{ padding: "60px 0" }}>
-  <div className="hero-background"></div>
-
-  <div className="container hero-container" style={{ maxWidth: "900px" }}>
-    <div className="hero-content" style={{ gap: "12px" }}>
-      <div className="hero-badge" style={{ fontSize: "12px", padding: "4px 10px" }}>
-        <span>🤖 AI Robotics Curriculum</span>
-      </div>
-
-      <h1 className="hero-title" style={{ fontSize: "32px" }}>
-        <span className="gradient-text">{siteConfig.title}</span>
-      </h1>
-      <p className="hero-subtitle" style={{ fontSize: "16px" }}>{siteConfig.tagline}</p>
-
-      <div className="hero-buttons" style={{ gap: "10px" }}>
-        <Link className="btn btn-primary" to="/docs/intro" style={{ fontSize: "14px", padding: "8px 16px" }}>
-          🚀 Start Learning Now
-        </Link>
-        <Link className="btn btn-secondary" to="/docs/intro" style={{ fontSize: "14px", padding: "8px 16px" }}>
-          📚 View All Modules
-        </Link>
-      </div>
-
-      <div className="hero-highlights" style={{ gap: "12px" }}>
-        <div className="highlight" style={{ fontSize: "14px" }}>
-          <span className="highlight-icon">✅</span><span>Complete Curriculum</span>
-        </div>
-        <div className="highlight" style={{ fontSize: "14px" }}>
-          <span className="highlight-icon">⚡</span><span>Practical Projects</span>
-        </div>
-        <div className="highlight" style={{ fontSize: "14px" }}>
-          <span className="highlight-icon">🎯</span><span>Industry Relevant</span>
-        </div>
-      </div>
-    </div>
-
-    <div
-      className="hero-image"
-      style={{ transform: `scale(0.75) translate(${mousePosition.x}px, ${mousePosition.y}px)` }}
-    >
-      <img
-        src="https://png.pngtree.com/png-vector/20240810/ourmid/pngtree-a-robot-is-busy-in-study-png-image_13439400.png"
-        alt="Robot Reading Book"
-        className="robot-image"
-        style={{ width: "220px" }}
-      />
-      <div className="robot-glow"></div>
-    </div>
-  </div>
-</header>
-
+  <header className="hero-section"> <div className="hero-background"></div> <div className="container hero-container"> <div className="hero-content"> <div className="hero-badge"> <span>🤖 AI Robotics Curriculum</span> </div> <h1 className="hero-title"> <span className="gradient-text">{siteConfig.title}</span> </h1> <p className="hero-subtitle">{siteConfig.tagline}</p> <div className="hero-buttons"> <Link className="btn btn-primary" to="/docs/intro"> 🚀 Start Learning Now </Link> <Link className="btn btn-secondary" to="/docs/intro"> 📚 View All Modules </Link> </div> <div className="hero-highlights"> <div className="highlight"> <span className="highlight-icon">✅</span> <span>Complete Curriculum</span> </div> <div className="highlight"> <span className="highlight-icon">⚡</span> <span>Practical Projects</span> </div> <div className="highlight"> <span className="highlight-icon">🎯</span> <span>Industry Relevant</span> </div> </div> </div> <div className="hero-image" style={{ transform: translate(${mousePosition.x}px, ${mousePosition.y}px) }} > <img src="https://png.pngtree.com/png-vector/20240810/ourmid/pngtree-a-robot-is-busy-in-study-png-image_13439400.png" alt="Robot Reading Book" className="robot-image" /> <div className="robot-glow"></div> </div> </div> </header>
   );
 };
 
