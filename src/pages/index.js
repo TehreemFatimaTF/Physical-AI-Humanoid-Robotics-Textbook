@@ -207,7 +207,7 @@ const HeroSection = () => {
           }}
         >
           <img 
-            src="https://png.pngtree.com/png-vector/20240320/ourmid/pngtree-curious-robot-reading-book-png-image_12181635.png" 
+            src="https://png.pngtree.com/png-vector/20240810/ourmid/pngtree-a-robot-is-busy-in-study-png-image_13439400.png" 
             alt="Robot Reading Book"
             className="robot-image"
           />
