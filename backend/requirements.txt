@@ -1,0 +1,10 @@
+requests
+trafilatura
+qdrant-client
+cohere
+fastapi
+uvicorn
+python-dotenv
+lxml
+beautifulsoup4
+tqdm
