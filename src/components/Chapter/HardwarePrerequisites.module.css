@@ -1,0 +1,222 @@
+/**
+ * CSS module for the HardwarePrerequisites component
+ * Provides styling for hardware requirement displays
+ */
+
+.prerequisitesContainer {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  flex: 1;
+}
+
+.difficultyBadge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.difficultyBadge.green {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.difficultyBadge.orange {
+  background-color: #fff3e0;
+  color: #ef6c00;
+}
+
+.difficultyBadge.red {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.warning {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background-color: #fff8e1;
+  border: 1px solid #ffd54f;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.warningIcon {
+  font-size: 1.2rem;
+}
+
+.warningText {
+  color: #f57f17;
+}
+
+.hardwareSection {
+  margin-bottom: 1rem;
+}
+
+.sectionTitle {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.hardwareList {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: none;
+}
+
+.hardwareItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.hardwareIcon {
+  margin-right: 0.5rem;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.hardwareText {
+  flex: 1;
+}
+
+.noRequirements {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background-color: #e3f2fd;
+  border: 1px solid #90caf9;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.infoIcon {
+  font-size: 1.2rem;
+}
+
+.infoText {
+  color: #1976d2;
+}
+
+.guidance {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.guidanceTitle {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.guidanceList {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.guidanceList li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.guidanceList a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.guidanceList a:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode support */
+html[data-theme='dark'] .prerequisitesContainer {
+  background-color: #2a2a2a;
+  border-color: #444;
+}
+
+html[data-theme='dark'] .title {
+  color: #e0e0e0;
+}
+
+html[data-theme='dark'] .sectionTitle {
+  color: #ccc;
+}
+
+html[data-theme='dark'] .warning {
+  background-color: #332d25;
+  border-color: #8d6e63;
+}
+
+html[data-theme='dark'] .warningText {
+  color: #ffcc80;
+}
+
+html[data-theme='dark'] .noRequirements {
+  background-color: #1a237e;
+  border-color: #5c6bc0;
+}
+
+html[data-theme='dark'] .infoText {
+  color: #90caf9;
+}
+
+html[data-theme='dark'] .guidance {
+  border-top-color: #444;
+}
+
+html[data-theme='dark'] .guidanceList a {
+  color: #90caf9;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .prerequisitesContainer {
+    padding: 1rem;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .hardwareList {
+    padding-left: 1rem;
+  }
+}

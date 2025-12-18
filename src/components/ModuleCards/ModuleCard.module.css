@@ -1,0 +1,102 @@
+/**
+ * CSS module for the ModuleCard component
+ * Provides styling for Physical AI module cards with different color schemes per module
+ */
+
+.moduleCard {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.moduleCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardLight {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+.cardDark {
+  background-color: #1c1e24;
+  border: 1px solid #303846;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.defaultIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.moduleROS2 {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+}
+
+.moduleDigitalTwin {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  color: white;
+}
+
+.moduleNVIDIAIsaac {
+  background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
+  color: white;
+}
+
+.moduleVLA {
+  background: linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%);
+  color: white;
+}
+
+.moduleDefault {
+  background: linear-gradient(135deg, #7b4397 0%, #dc2430 100%);
+  color: white;
+}
+
+.moduleTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.moduleDescription {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.moduleNumber {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Responsive design */
+@media (max-width: 996px) {
+  .moduleCard {
+    margin-bottom: 1.5rem;
+  }
+}
