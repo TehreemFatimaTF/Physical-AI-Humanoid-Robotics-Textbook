@@ -6,6 +6,7 @@
   z-index: 9999;
 }
 
+
 .chat-button {
   background: linear-gradient(135deg, #000, #333);
   color: white;
@@ -167,3 +168,4 @@
   transform: scale(1.05);
   background: #222;
 }
+
