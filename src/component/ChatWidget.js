@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import "./chat.css";
 
+
 export default function ChatWidget() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState([]);
@@ -100,3 +101,4 @@ export default function ChatWidget() {
     </div>
   );
 }
+
